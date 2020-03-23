@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.skomurski</groupId>
 	<artifactId>accessing-neo4j-rest</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1</version>
 	<name>accessing-neo4j-rest</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -46,6 +46,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<executable>true</executable>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
